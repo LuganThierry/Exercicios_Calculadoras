@@ -1,0 +1,648 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnMultiplication.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 416</value>
+  </data>
+  <data name="&gt;&gt;BtnNine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnSeven.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;BtnSeven.Name" xml:space="preserve">
+    <value>BtnSeven</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnComma.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;BtnEight.Name" xml:space="preserve">
+    <value>BtnEight</value>
+  </data>
+  <data name="BtnClean.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;BtnDivision.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TxbOp.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;BtnFour.Name" xml:space="preserve">
+    <value>BtnFour</value>
+  </data>
+  <data name="BtnAddition.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="BtnAddition.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;BtnOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 142</value>
+  </data>
+  <data name="&gt;&gt;BtnAddition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnFour.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="BtnMultiplication.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="BtnSix.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnMultiplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 326</value>
+  </data>
+  <data name="BtnClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="&gt;&gt;BtnMultiplication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblResult.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnZero.Name" xml:space="preserve">
+    <value>BtnZero</value>
+  </data>
+  <data name="&gt;&gt;BtnFour.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblResult.Text" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="&gt;&gt;BtnThree.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="BtnFour.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="LblResult.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnThree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 86</value>
+  </data>
+  <data name="BtnComma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="BtnEight.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtnAddition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 159</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>727, 514</value>
+  </data>
+  <data name="BtnDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="&gt;&gt;BtnClean.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnEight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 326</value>
+  </data>
+  <data name="BtnNine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 326</value>
+  </data>
+  <data name="LblResult.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnMultiplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="BtnClean.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="BtnZero.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnNine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="BtnOne.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;BtnSix.Name" xml:space="preserve">
+    <value>BtnSix</value>
+  </data>
+  <data name="&gt;&gt;BtnSeven.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnFive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TxbOp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClean.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnResult.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="TxbOp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 28</value>
+  </data>
+  <data name="&gt;&gt;BtnZero.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;TxbResult.Name" xml:space="preserve">
+    <value>TxbResult</value>
+  </data>
+  <data name="BtnThree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="BtnSix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="&gt;&gt;BtnTwo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnComma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 416</value>
+  </data>
+  <data name="BtnNine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TxbOp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="BtnEight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnFive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnThree.Name" xml:space="preserve">
+    <value>BtnThree</value>
+  </data>
+  <data name="BtnMultiplication.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BtnSubtraction.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="TxbResult.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="BtnSix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 239</value>
+  </data>
+  <data name="&gt;&gt;BtnResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnOne.Name" xml:space="preserve">
+    <value>BtnOne</value>
+  </data>
+  <data name="&gt;&gt;BtnResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnSeven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;BtnSubtraction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="&gt;&gt;BtnFive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 159</value>
+  </data>
+  <data name="BtnAddition.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnSeven.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnMultiplication.Name" xml:space="preserve">
+    <value>BtnMultiplication</value>
+  </data>
+  <data name="&gt;&gt;BtnFive.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnNine.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BtnResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold</value>
+  </data>
+  <data name="BtnResult.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="BtnTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="BtnOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="&gt;&gt;BtnSix.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FrmMathCalcultor</value>
+  </data>
+  <data name="&gt;&gt;BtnOne.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TxbResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 86</value>
+  </data>
+  <data name="BtnClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 416</value>
+  </data>
+  <data name="BtnSubtraction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="TxbOp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;LblResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnEight.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMathCalcultor</value>
+  </data>
+  <data name="&gt;&gt;BtnDivision.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnFour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 239</value>
+  </data>
+  <data name="&gt;&gt;BtnComma.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnTwo.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;BtnOne.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnDivision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="&gt;&gt;BtnComma.Name" xml:space="preserve">
+    <value>BtnComma</value>
+  </data>
+  <data name="&gt;&gt;BtnNine.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;BtnDivision.Name" xml:space="preserve">
+    <value>BtnDivision</value>
+  </data>
+  <data name="BtnFour.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BtnSix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnEight.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 159</value>
+  </data>
+  <data name="&gt;&gt;BtnAddition.Name" xml:space="preserve">
+    <value>BtnAddition</value>
+  </data>
+  <data name="TxbResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="BtnClean.Text" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="BtnZero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnMultiplication.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnAddition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="BtnSeven.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnFive.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnSubtraction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 239</value>
+  </data>
+  <data name="&gt;&gt;BtnComma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClean.Name" xml:space="preserve">
+    <value>BtnClean</value>
+  </data>
+  <data name="TxbResult.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnDivision.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;BtnNine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblResult.Name" xml:space="preserve">
+    <value>LblResult</value>
+  </data>
+  <data name="BtnOne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="BtnThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 159</value>
+  </data>
+  <data name="BtnEight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="&gt;&gt;BtnEight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSeven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 326</value>
+  </data>
+  <data name="&gt;&gt;BtnThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnDivision.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnMultiplication.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BtnSix.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnZero.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnFive.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnResult.Name" xml:space="preserve">
+    <value>BtnResult</value>
+  </data>
+  <data name="BtnSubtraction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnComma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnSubtraction.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;TxbResult.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;BtnClean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnOne.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnTwo.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnFour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAddition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="BtnOne.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;TxbResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnFive.Name" xml:space="preserve">
+    <value>BtnFive</value>
+  </data>
+  <data name="&gt;&gt;BtnTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnComma.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="BtnMultiplication.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="TxbOp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 62</value>
+  </data>
+  <data name="&gt;&gt;TxbResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddition.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 326</value>
+  </data>
+  <data name="&gt;&gt;TxbOp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnComma.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="TxbResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 36</value>
+  </data>
+  <data name="&gt;&gt;BtnEight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnDivision.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;BtnSubtraction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 37</value>
+  </data>
+  <data name="&gt;&gt;BtnZero.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSubtraction.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="BtnSix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="BtnThree.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnTwo.Name" xml:space="preserve">
+    <value>BtnTwo</value>
+  </data>
+  <data name="BtnSix.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TxbOp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnNine.Name" xml:space="preserve">
+    <value>BtnNine</value>
+  </data>
+  <data name="BtnFive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 239</value>
+  </data>
+  <data name="BtnDivision.Text" xml:space="preserve">
+    <value>÷</value>
+  </data>
+  <data name="BtnFour.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnNine.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 416</value>
+  </data>
+  <data name="&gt;&gt;BtnSubtraction.Name" xml:space="preserve">
+    <value>BtnSubtraction</value>
+  </data>
+  <data name="BtnTwo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnSeven.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnComma.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="BtnFive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 52</value>
+  </data>
+  <data name="BtnSubtraction.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LblResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxbOp.Name" xml:space="preserve">
+    <value>TxbOp</value>
+  </data>
+  <data name="BtnThree.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnSeven.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>pt-BR</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
